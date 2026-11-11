@@ -1,0 +1,57 @@
+# Папки сборки (qmake и CMake)
+build/
+*build*/
+cmake-build-*/
+debug/
+release/
+Debug/
+Release/
+
+# Настройки пользователя Qt Creator (КРИТИЧНО игнорировать)
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.qbs.user
+*.qbs.user.*
+*.autosave
+
+# Сгенерированные файлы Qt (MOC, UIC, RCC)
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.moc
+*_plugin_import.cpp
+*_qml_plugin_import.cpp
+
+# Временные файлы компиляции C++ и qmake
+Makefile*
+*.o
+*.obj
+*.lo
+*.slo
+*.d
+*.pch
+*.gch
+*.ilk
+*.pdb
+*.idb
+*.res
+.qmake.stash
+.qmake.cache
+
+# Скомпилированные бинарники и библиотеки (уберите, если нужно хранить релизы)
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.app
+
+# Настройки других IDE (если используете VS Code или Visual Studio)
+.vscode/
+.vs/
+*.sln
+*.vcxproj*
